@@ -1,0 +1,50 @@
+html{
+	scroll-behavior: smooth;
+	min-height: 100vh;
+  }
+  body{
+	background-color: white;
+	color: white;
+  }
+  .wel{
+	background-image: url('img1.jpg'); 
+	background-repeat: no-repeat; 
+	background-size: cover;
+	animation-name: welcome;
+	animation-iteration-count: infinite;
+	animation-duration: 8s;
+	animation-timing-function: linear;
+  }
+  @keyframes welcome{
+	0% {background-image: url('img1.jpg');}
+	50% {background-image: url('img2.jpg');}
+	100% {background-image: url('img1.jpg');}
+  }
+  
+  /* LOGIN PAGE STARTS FROM HERE */
+  
+  .logged{
+	background-image: url('img3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	animation-name: logg;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+	animation-timing-function: linear;
+  }
+  @keyframes logg{
+	0% {background-image: url('img3.jpg');}
+	50% {background-image: url('img1.jpg');}
+	100% {background-image: url('img3.jpg');}
+  }
+
+  /* CHARM CONTINUES FROM HERE */
+.mar {
+	width: 100%;
+	color:white;
+	font-size: 128px;
+  }
+
+  /* WHAT A CHARM ! */
+
+  /* MAIN PAGE CSS STARTS FROM HERE */
