@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap-5.3.2-dist\css\bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="suci-css.css">
+    <title>suchi</title>
+</head>
+
+<body>
+    <div class="wel">
+        <!-- NAVIGATION PANEL STARTS FROM HERE -->
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <ul class="nav">
+                    <li class="nav-item navbar-brand"><a href="#" class="nav-link text-white">&copy;SUCHI</a></li>
+                </ul>
+                <ul class="nav nav-underline justify-content-end">
+                    <li class="nav-item mx-3"><a href="#about-us" class="nav-link text-white">About</a></li>
+                    <li class="nav-item mx-3"><a href="suci-signup.html" class="nav-link text-white">Sign up</a></li>
+                    <li class="nav-item mx-3"><a href="suci-login.html" class="nav-link text-white">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- NAVIGATION PANEL ENDS IN HERE -->
+        <br><br>
+        <!-- MAIN HOMEPAGE FOR SUCI STARTS FROM HERE :) -->
+        <article>
+            <div class="container">
+                <h1 class="h1 text-center">SUCHI</h1>
+                <p class="text-center" style="font-size: larger;">Stay focused and productive with suchi, your personal
+                    to do list manager.</p>
+            </div>
+            <!-- GET STARTED BUTTON OVER HERE -->
+            <div class="container text-center">
+                <a href="suci-login.html" class="btn btn-dark text-white btn-lg rounded-pill">Get Started</a>
+            </div>
+            <br><br>
+            <!--CENTER IMAGE STARTS FROM HERE -->
+            <div class="container">
+                <img src="finalised.png" alt="inner view" class="rounded img-fluid mx-auto d-block shadow">
+            </div>
+            <!-- CENTER IMAGE ENDS IN HERE -->
+        </article><br>
+    </div><br>
+
+    <!-- ABOUT US STARTS FROM HERE -->
+
+    <div class="bg-white" id="about-us">
+        <div>
+            <h1 class="h1 text-center text-black"><br>About Us</h1>
+        </div>
+        <div class="container">
+            <div class="row mx-auto">
+                <div class="col-sm-4">
+                    <div class="card mt-4 mb-4 shadow mx-auto"><br>
+                        <img src="cara.jpg" alt="Yash" class="mx-auto d-block card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="text-center text-black h4">Yash Kumar</h4>
+                            <div class="container">
+                                <p>Full Stack developer</p>
+                            </div>
+                            <a href="https://www.linkedin.com/in/yash-sharma-877460290/" class="btn btn-outline-dark rounded-pill" style="width: 48%;">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card mt-4 mb-4 shadow mx-auto"><br>
+                        <img src="yashi.jpeg" alt="Yash" class="mx-auto d-block card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="text-center text-black h4">Yashi Goyal</h4>
+                            <div class="container">
+                                <p>Tech Enthusiast</p>
+                            </div>
+                            <a href="https://www.linkedin.com/in/yash-sharma-877460290/" class="btn btn-outline-dark rounded-pill" style="width: 48%;">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card mt-4 mb-4 shadow mx-auto"><br>
+                        <img src="yat.jpg" alt="Yash" class="mx-auto d-block card-img-top">
+                        <div class="card-body text-center">
+                            <h4 class="text-center text-black h4">Yatinder Singh</h4>
+                            <div class="container">
+                                <p>Full Stack Developer</p>
+                            </div>
+                            <a href="https://www.linkedin.com/in/yash-sharma-877460290/" class="btn btn-outline-dark rounded-pill" style="width: 48%;">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="background-color: rgb(246, 246, 246);">
+        <div class="container">
+            <div class="text-center col-sm-4 mx-auto">
+                <div class="mx-auto">
+                    <h3 class="h3 text-black"><br>Plan your week &#128197;</h3>
+                    <br>
+                    <p class="text-dark">Get Organized by Priortizing your work tasksa at the start of each week and
+                        focs on what matters most.</p>
+                </div>
+                <div class="mx-auto">
+                    <h3 class="h3 text-black"><br>Stay on track &#128095;</h3>
+                    <br>
+                    <p class="text-dark">Create categories and assign them to your tasks. Gain insights into how you
+                        spend your time</p>
+                </div>
+                <div class="mx-auto">
+                    <h3 class="h3 text-black"><br>Secure &#128274;</h3>
+                    <br>
+                    <p class="text-dark">Your tasks are personal and confidential. All information on suchi is encrypted
+                        and secure.</p><br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ABOUT US PAGE ENDS OVER HERE -->
+
+    <!-- HERE GOES THE CHARM  -->
+    <div class="wel">
+        <div>
+            <marquee behavior="sliding" direction="left" class="mar" scrollamount="9">SUCHI - STAY FOCUSED AND
+                PRODUCTIVE! </marquee>
+        </div>
+    </div>
+    <!-- CHARM'S ALL DONE -->
+
+    <!-- FOOTER STARTS OVER HERE -->
+    <div class="bg-black">
+        <div class="container"><br>
+            <div class="row">
+                <div class="col-6 mx-auto">
+                    <h3 class="h3">Follow &#128153;</h3>
+                    <table class="table table-borderless">
+                        <tr>
+                            <td class="bg-black">
+                                <a href="https://www.instagram.com/yash_kumarsharma_/"
+                                    class="text-secondary text-decoration-none">Instagram</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bg-black">
+                                <a href="https://www.linkedin.com/in/yash-sharma-877460290/"
+                                    class="text-secondary text-decoration-none">Linkedin</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bg-black">
+                                <a href="#" class="text-secondary text-decoration-none">Snapchat</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-3 mx-auto">
+                    <h3 class="h3">Product</h3>
+                    <table class="table table-borderless">
+                        <tr>
+                            <td class="bg-black">
+                                <a href="suci-login.html" class="text-decoration-none text-secondary">login</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bg-black">
+                                <a href="suci-signup.html" class="text-decoration-none text-secondary">signup</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-3 mx-auto">
+                    <h3 class="h3">Support</h3>
+                    <table class="table table-borderless">
+                        <tr>
+                            <td class="bg-black">
+                                <a href="#" class="text-secondary text-decoration-none">FAQ</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bg-black">
+                                <a href="#" class="text-secondary text-decoration-none">Contact</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bg-black">
+                                <a href="#" class="text-secondary text-decoration-none">Terms of Service</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bg-black">
+                                <a href="#" class="text-secondary text-decoration-none">Privacy Policy</a>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div><br><br>
+        </div>
+        <h6 class="h6 pb-5 container">&copy;SUCHI. All Rights Reserved.</h6>
+    </div>
+    <!-- WELCOME PAGE ENDS OVER HERE -->
+</body>
+
+</html>
